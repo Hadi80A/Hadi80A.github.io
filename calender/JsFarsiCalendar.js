@@ -131,7 +131,7 @@ function refreshDatePicker(dateFieldName, year, month, day)
   var TD_buttons = "<td class='dpButtonTD' width='10%'>";
   var TD_todaybutton = "<td colspan=7 class='dpTodayButtonTD'><hr/>";
   var TD_days = "<td class='dpDayTD'>";
-  var TD_selected = "<td class='dpDayHighlightTD' onMouseOut='this.className=\"dpDayHighlightTD\";' onMouseOver='this.className=\"dpTDHover\";' ";    // leave this tag open, because we'll be adding an onClick event
+  var TD_selected = "<td class='dpDayTD' onMouseOut='this.className=\"dpDayTD\";' onMouseOver='this.className=\"dpTDHover\";' ";    // leave this tag open, because we'll be adding an onClick event
   var xTD = "</td>" + crlf;
   var DIV_title = "<div class='dpTitleText'>";
   var DIV_selected = "<div class='dpDayHighlight'>";
